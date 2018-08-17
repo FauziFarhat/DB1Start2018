@@ -9,8 +9,8 @@ public class ExercicioDeColecaoTest {
 	@Test
 	public void exercicio1Test() {
 		ExercicioDeColecao ex = new ExercicioDeColecao();
-		assertTrue(ex.exercicio1().get(0).equals("Azul"));
-		assertTrue(ex.exercicio1().get(1).equals("Laranja"));
+		assertTrue(ex.exercicio1().get(0).equals("Laranja"));
+		assertTrue(ex.exercicio1().get(1).equals("Azul"));
 	}
 	
 	@Test
@@ -35,6 +35,30 @@ public class ExercicioDeColecaoTest {
 	@Test
 	public void exercicio5Test() {
 		ExercicioDeColecao ex = new ExercicioDeColecao();
-
+		assertTrue(ex.exercicio5().get(0) == "Azul");
+	}
+	
+	@Test
+	public void exercicio6Test() {
+		ExercicioDeColecao ex = new ExercicioDeColecao();
+		assertTrue(ex.exercicio6().get(0) == "Azul");
+	}
+	
+	@Test
+	public void exercicio7Test() {
+		ExercicioDeColecao ex = new ExercicioDeColecao();
+		assertTrue(ex.exercicio7().get(0) == "Tio");
+	}
+	
+	@Test
+	public void exercicio8Test() {
+		ExercicioDeColecao ex = new ExercicioDeColecao();
+		assertTrue(ex.exercicio8().get(0) == 2);
+	}
+	
+	@Test
+	public void exercicio14Test() {
+		ExercicioDeColecao ex = new ExercicioDeColecao();
+		assertTrue(ex.exercicio14().contains("ANA"));
 	}
 }
