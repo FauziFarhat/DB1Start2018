@@ -6,15 +6,32 @@ import java.util.List;
 public enum EstadosDoBrasil {
 	
 	AMAPA("Paraná", "PR"),
-	SANTA_CATARINA("Santa Catarina"),
-	RIO_GRANDE_DO_SUL("Rio grande do Sul"),
-	SAO_PAULO("São Paulo"),
-	RIO_DE_JANEIRO("Rio de Janeiro"),
-	MINAS_GERAIS("Minas Gerais"),
-	ESPIRITO_SANTO("Espírito Santo");
-	/*BAHIA, PARANA, GOIAS, DISTRITO_FEDERAL, PERNAMBUCO,
-	AMAZONAS, PARA, CEARA, EPIRITO_SANTO, MARANHAO, MATO_GROSSO, MATO_GROSSO_DO_SUL, PARAIBA,
-	ALAGOAS, PIAUI, ACRE, TOCANTINS, RONDONIA, RIO_GRANDE_DO_NORTE, SERGIPE, RORAIMA;*/
+	SANTA_CATARINA("Santa Catarina", "SC"),
+	RIO_GRANDE_DO_SUL("Rio grande do Sul", "RS"),
+	SAO_PAULO("São Paulo", "SP"),
+	RIO_DE_JANEIRO("Rio de Janeiro", "RJ"),
+	MINAS_GERAIS("Minas Gerais", "MG"),
+	BAHIA("Bahia", "BH"), 
+	PARANA("Paraná", "PR"), 
+	GOIAS("Goiás", "GO"), 
+	DISTRITO_FEDERAL("Distrito Federal", "DF"), 
+	PERNAMBUCO("Pernambuco", "PE"),
+	AMAZONAS("Amazonas", "AM"), 
+	PARA("Pará", "PA"), 
+	CEARA("Ceará", "CE"), 
+	EPIRITO_SANTO("Espírito Santo", "ES"), 
+	MARANHAO("Maranhão", "MA"), 
+	MATO_GROSSO("Mato Grosso", "MT"), 
+	MATO_GROSSO_DO_SUL("Mato Grosso do Sul", "MS"), 
+	PARAIBA("Paraíba", "PB"),
+	ALAGOAS("Alagoas", "AL"), 
+	PIAUI("Piauí", "PI"), 
+	ACRE("Acre", "AC"), 
+	TOCANTINS("Tocantins", "TO"), 
+	RONDONIA("Rondônia", "RO"), 
+	RIO_GRANDE_DO_NORTE("Rio Grande do Norte", "RN"), 
+	SERGIPE("Sergipe", "SE"), 
+	RORAIMA("Roraima", "RR");
 	
 	private String nomeDoEstado;
 	private String uf;

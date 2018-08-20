@@ -20,22 +20,22 @@ public class ExercicioDeColecao {
 		exercicio8();
 		exercicio14();
 	}
-	
-	public static ArrayList<String> exercicio1(){
+
+	public static ArrayList<String> exercicio1() {
 		ArrayList<String> cores = new ArrayList<String>();
 		cores.add("Laranja");
 		cores.add("Azul");
 		return cores;
 	}
-	
+
 	public static Integer exercicio2() {
 		ArrayList<String> nomes = new ArrayList<String>();
 		nomes.add("Fauzi");
 		nomes.add("Fauzao");
 		return nomes.size();
 	}
-	
-	public static List<String> exercicio3(){
+
+	public static List<String> exercicio3() {
 		List<String> parentes = new ArrayList<String>();
 		parentes.add("Pai");
 		parentes.add("Mãe");
@@ -48,8 +48,8 @@ public class ExercicioDeColecao {
 		parentes.remove("Mãe");
 		return parentes;
 	}
-	
-	public static List<String> exercicio4(){
+
+	public static List<String> exercicio4() {
 		List<String> cidades = new ArrayList<String>();
 		cidades.add("Campo Grande");
 		cidades.add("Nova Andradina");
@@ -57,38 +57,38 @@ public class ExercicioDeColecao {
 		cidades.remove(1);
 		return cidades;
 	}
-	
-	public static List<String> exercicio5(){
+
+	public static List<String> exercicio5() {
 		List<String> cores = new ArrayList<String>();
 		cores = exercicio1();
 		Collections.sort(cores);
 		return cores;
 	}
-	
-	public static List<String> exercicio6(){
+
+	public static List<String> exercicio6() {
 		List<String> cores = new ArrayList<String>();
 		cores = exercicio1();
 		cores.remove("Laranja");
 		return cores;
 	}
-	
-	public static List<String> exercicio7(){
+
+	public static List<String> exercicio7() {
 		List<String> parentes = new ArrayList<String>();
 		parentes = exercicio3();
 		Collections.sort(parentes);
 		Collections.reverse(parentes);
 		return parentes;
 	}
-	
-	public static List<Integer> exercicio8(){
+
+	public static List<Integer> exercicio8() {
 		List<Integer> pares = new ArrayList<Integer>();
 		List<Integer> impares = new ArrayList<Integer>();
 		List<Integer> total = new ArrayList<Integer>();
-		for(Integer posicao = 1; posicao <=20; posicao++ ) {
-			if(posicao % 2 == 0) {
+		for (Integer posicao = 1; posicao <= 20; posicao++) {
+			if (posicao % 2 == 0) {
 				pares.add(posicao);
 			}
-			if(posicao % 2 != 0) {
+			if (posicao % 2 != 0) {
 				impares.add(posicao);
 			}
 		}
@@ -96,8 +96,8 @@ public class ExercicioDeColecao {
 		total.addAll(impares);
 		return total;
 	}
-	
-	public static Set<String> exercicio14(){
+
+	public static Set<String> exercicio14() {
 		Set<String> nomes = new TreeSet<String>();
 		nomes.add("ANA");
 		nomes.add("ANA LAURA");
@@ -114,6 +114,6 @@ public class ExercicioDeColecao {
 		nomes.add("MARIA");
 		nomes.add("MARCOS");
 		System.out.println(nomes);
-		return nomes;	
-	}	
+		return nomes;
+	}
 }
